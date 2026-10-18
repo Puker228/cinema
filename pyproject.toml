@@ -1,0 +1,15 @@
+[project]
+name = "cinema"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "danil", email = "danil@email.com" }]
+requires-python = ">=3.13"
+dependencies = ["aiosqlite>=0.22.1", "pyqt6>=6.11.0", "sqlalchemy>=2.1.5"]
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["ruff>=0.17.1"]
