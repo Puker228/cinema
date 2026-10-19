@@ -7,6 +7,9 @@ authors = [{ name = "danil", email = "danil@email.com" }]
 requires-python = ">=3.13"
 dependencies = ["pyqt6>=6.11.0", "sqlalchemy>=2.1.5"]
 
+[tool.pyrefly]
+project-includes = ["**/*.py*", "**/*.ipynb"]
+
 [project.scripts]
 cinema = "cinema:main"
 
@@ -15,4 +18,4 @@ requires = ["uv_build>=0.13.1,<0.14.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = ["ruff>=0.17.1"]
+dev = ["pyrefly>=1.4.0", "ruff>=0.17.1"]
