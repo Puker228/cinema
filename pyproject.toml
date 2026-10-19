@@ -5,7 +5,7 @@ description = "Админка кинотеатра на PyQt6 + SQLite"
 readme = "README.md"
 authors = [{ name = "danil", email = "danil@email.com" }]
 requires-python = ">=3.13"
-dependencies = ["aiosqlite>=0.22.1", "pyqt6>=6.11.0", "sqlalchemy>=2.1.5"]
+dependencies = ["pyqt6>=6.11.0", "sqlalchemy>=2.1.5"]
 
 [project.scripts]
 cinema = "cinema:main"
